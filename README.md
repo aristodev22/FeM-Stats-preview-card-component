@@ -30,6 +30,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - Semantic HTML5 markup
 - Flexbox CSS
+- Responsive layout with mobile, tablet and desktop versions
 - Mobile first approach
 
 ## Author
