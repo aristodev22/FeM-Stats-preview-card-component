@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeM Stats preview card component</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main class="container">
+        <div class="card">
+            <div class="card-image-div">
+                <picture>
+                    <source 
+                        media="(min-width:768px)"
+                        srcset="./images/image-header-desktop.jpg"
+                        class="card-image-desktop"
+                    />
+                    <img class="card-image" src="./images/image-header-mobile.jpg" alt="Card Image"/>
+                </picture>
+                <div class="card-image-overlay"></div>
+            </div>
+            <div class="card-content">
+                <h1 class="title">
+                    Get <span class="odd">insights</span> that help your business grow.
+                </h1>
+                <p class="card-description">
+                    Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                    experience, and overall efficiency.
+                </p>
+                <div class="stats-div">
+                    <div class="companies">
+                        <p class="figure">
+                            10k+
+                        </p>
+                        <p class="stat-type">
+                            companies
+                        </p>
+                    </div>
+                    <div class="templates">
+                        <p class="figure">
+                            314
+                        </p>
+                        <p class="stat-type">
+                            templates
+                        </p>
+                    </div>
+                    <div class="enquiries">
+                        <p class="figure">
+                            12M+
+                        </p>
+                        <p class="stat-type">
+                            queries
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>.
+        Coded by <a href="https://aristodev.com">Aristo Dev</a>.
+    </footer>
+</body>
+
+</html>
