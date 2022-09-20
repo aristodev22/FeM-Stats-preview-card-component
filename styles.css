@@ -45,19 +45,14 @@ body {
 .card-image-div {
     position: relative;
     display: flex;
+    background-color: hsl(277, 64%, 61%, 0.9);
+    border-radius: 10px 10px 0 0;
 }
 
 .card-image {
     border-radius: 10px 10px 0 0;
     height: 100%;
-}
-
-.card-image-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    background-color: hsl(277, 64%, 61%, 0.4);
+    mix-blend-mode: multiply;
 }
 
 .card-content {
@@ -122,20 +117,17 @@ body {
         justify-content: space-between;
     }   
     
-    .card-image {
-        border-radius: 0 10px 10px 0;
-        height: 100%;
-        width: 100%;
-    }
-
-    .card-image-overlay {
-        border-radius: 0 10px 10px 0;
-    }
-
     .card-image-div {
         order: 2;
         margin-left: auto;
         flex-basis: 375px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card-image {
+        border-radius: 0 10px 10px 0;
+        height: 100%;
+        width: 100%;
     }
 
     .card-content {
